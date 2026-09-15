@@ -1,1 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">應用鎖</string>
 
+    <string name="device_admin_description">防止未經授權的人解除安裝本應用程式。</string>
+    <string name="accessibility_service_description">允許應用鎖偵測受保護的應用程式被打開，並顯示密碼驗證。</string>
+
+    <string name="unlock_to_disable_admin">請輸入密碼以停用管理員權限。</string>
+    <string name="incorrect_pin_try_again">PIN 碼錯誤，請重試。</string>
+    <string name="password_verified_admin">密碼驗證成功，你現在可以停用管理員權限</string>
+    <string name="choose_app_detection">選擇應用程式偵測方式</string>
+    <string name="app_detection_desc">選擇應用鎖偵測受保護應用程式啟動的方式。</string>
+    <string name="notif_perm">通知權限</string>
+    <string name="notif_perm_desc">應用鎖需要通知權限，以便通知你並在背景正常運作。點擊「下一步」以授予權限。</string>
+    <string name="notif_perm_granted">你的 Android 版本已自動授予通知權限。</string>
+    <string name="welc_applock">歡迎使用應用鎖</string>
+    <string name="welcome_desc">使用應用鎖保護你的應用程式和隱私。我們會引導你完成快速設定。</string>
+    <string name="secure_apps">保護你的應用程式</string>
+    <string name="secure_apps_desc">使用先進的鎖定機制保護你的私人應用程式</string>
+    <string name="display_over_apps">在其他應用程式上層顯示</string>
+    <string name="display_over_apps_desc">應用鎖需要此權限才能顯示鎖定畫面。點擊「下一步」並啟用權限。</string>
+
+    <!-- AppIntroScreen -->
+    <string name="notification_permission_required_desc">應用鎖需要通知權限才能正常運作。</string>
+    <string name="shizuku_permission_granted">已授予 Shizuku 權限</string>
+    <string name="shizuku_permission_required_desc">進階功能需要 Shizuku 權限。</string>
+    <string name="allow_display_over_other_apps">請允許應用鎖在其他應用程式上層顯示。</string>
+    <string name="disable_battery_optimization_title">停用電池最佳化</string>
+    <string name="disable_battery_optimization_desc">為確保應用鎖在背景穩定運作，請停用電池最佳化。點擊「下一步」以開啟設定。</string>
+    <string name="accessibility_service_title">無障礙服務</string>
+    <string name="accessibility_service_card_desc">標準方式，適用於大多數裝置。需要無障礙權限，部分品牌可能會有輕微延遲。</string>
+    <string name="usage_stats_title">使用情況統計</string>
+    <string name="usage_stats_card_desc">實驗性方式，利用系統使用統計資料。在部分裝置上效果更好。</string>
+    <string name="shizuku_service_title">Shizuku 服務</string>
+    <string name="shizuku_service_card_desc">進階方式，效能更好、體驗更佳。需要安裝 Shizuku 並透過 ADB 啟用。</string>
+    <string name="can_change_later_in_settings">你稍後可以在設定中更改</string>
+    <string name="app_intro_accessibility_desc">
+應用鎖需要無障礙服務才能正常運作。
+
+如果出現「受限的設定」訊息，請手動前往設定 > 應用程式 > 應用鎖 > 右上角選單，然後按下「允許受限設定」。
+
+點擊「下一步」以啟用。
+    </string>
+    <string name="app_intro_usage_stats_title">使用情況存取權限</string>
+    <string name="app_intro_usage_stats_desc">
+需要此權限才能偵測受鎖定的應用程式是否啟動。
+
+如果出現「受限的設定」訊息，請手動前往設定 > 應用程式 > 應用鎖 > 右上角選單，然後按下「允許受限設定」。
+
+點擊「下一步」以啟用。</string>
+    <string name="app_intro_shizuku_desc">
+Shizuku 提供鎖定系統應用程式等進階功能。
+
+請確認你已安裝 Shizuku 並透過 ADB 啟用。點擊「下一步」以授予權限。
+    </string>
+    <string name="app_intro_complete_privacy_title">完整隱私</string>
+    <string name="app_intro_complete_privacy_desc">你的資料永遠不會離開你的裝置。應用鎖時刻保護你的隱私。</string>
+    <string name="all_permissions_required">必須授予所有權限才能繼續。</string>
+    <string name="next_button">下一步</string>
+    <string name="get_started_button">開始使用</string>
+
+    <!-- PasswordOverlayScreen -->
+    <string name="default_app_name">應用程式</string>
+    <string name="this_app">此應用程式</string>
+    <string name="unlock_app_title">解鎖 %1$s</string>
+    <string name="confirm_biometric_subtitle">確認生物辨識以繼續</string>
+    <string name="use_pin_button">使用 PIN 碼</string>
+    <string name="enter_password_to_continue">輸入密碼以繼續</string>
+    <string name="biometric_authentication_cd">生物辨識驗證</string>
+
+    <!-- SetPasswordScreen -->
+    <string name="set_pin_to_continue_toast">請設定 PIN 碼以繼續</string>
+    <string name="authenticate_to_reset_pin_title">驗證以重設 PIN 碼</string>
+    <string name="use_device_pin_pattern_password_subtitle">使用你的裝置 PIN 碼、圖形或密碼</string>
+    <string name="enter_current_pin_title">輸入目前的 PIN 碼</string>
+    <string name="confirm_pin_title">確認 PIN 碼</string>
+    <string name="set_new_pin_title">設定新的 PIN 碼</string>
+    <string name="create_pin_explanation">請建立一個 PIN 碼來保護你鎖定的應用程式。每次嘗試存取鎖定的應用程式時，都需要輸入此 PIN 碼。</string>
+    <string name="enter_current_pin_label">輸入你目前的 PIN 碼</string>
+    <string name="confirm_new_pin_label">確認你的新 PIN 碼</string>
+    <string name="create_new_pin_label">建立新的 PIN 碼</string>
+    <string name="tooltip_enter_current_pin">輸入你目前的 PIN 碼以繼續</string>
+    <string name="tooltip_confirm_pin">請再次輸入相同的 PIN 碼以確認</string>
+    <string name="tooltip_create_pin_min_length">建立至少 4 位數的 PIN 碼</string>
+    <string name="information_cd">資訊</string>
+    <string name="pins_dont_match_error">PIN 碼不符，請重試。</string>
+    <string name="pin_min_length_error">PIN 碼至少需要 4 位數</string>
+    <string name="re_enter_new_pin_confirm_label">重新輸入你的新 PIN 碼以確認</string>
+    <string name="reset_using_device_password_button">使用裝置密碼重設</string>
+    <string name="cancel_button">取消</string>
+    <string name="start_over_button">重新開始</string>
+    <string name="password_set_successfully_toast">密碼設定成功</string>
+    <string name="use_pattern_button">使用圖形</string>
+
+    <!-- MainScreen -->
+    <string name="main_screen_anti_uninstall_log">已啟用防解除安裝</string>
+    <string name="main_screen_shizuku_not_available_toast">Shizuku 無法使用。請安裝並設定 Shizuku。</string>
+    <string name="main_screen_overlay_permission_dialog_title">需要懸浮窗權限</string>
+    <string name="main_screen_overlay_permission_dialog_text">請在設定中授予應用程式繪製懸浮窗的權限。這是顯示鎖定畫面所必需的。</string>
+    <string name="main_screen_overlay_permission_open_settings_button">開啟設定</string>
+    <string name="main_screen_shizuku_manual_permission_toast">請手動授予 Shizuku 權限</string>
+    <string name="main_screen_device_admin_explanation">應用鎖需要裝置管理員權限以防止解除安裝。這不會影響你裝置的正常功能。</string>
+    <string name="main_screen_join_community_dialog_title">加入社群</string>
+    <string name="main_screen_join_community_dialog_text">加入我們的 Discord 社群以獲得更新和支援。</string>
+    <string name="main_screen_join_community_join_discord_button">加入 Discord</string>
+    <string name="main_screen_join_community_dismiss_button">略過</string>
+    <string name="main_screen_support_development_dialog_title">支持開發</string>
+    <string name="main_screen_support_development_donate_button">贊助</string>
+    <string name="main_screen_app_protection_cd">應用程式保護</string>
+    <string name="main_screen_settings_cd">設定</string>
+    <string name="main_screen_loading_applications_text">正在載入應用程式…</string>
+    <string name="main_screen_search_apps_placeholder">搜尋應用程式</string>
+    <string name="main_screen_search_cd">搜尋</string>
+    <string name="main_screen_empty_search_title">找不到應用程式</string>
+    <string name="main_screen_empty_search_subtitle">請嘗試調整搜尋條件</string>
+
+    <!-- SettingsScreen -->
+    <string name="settings_screen_title">設定</string>
+    <string name="settings_screen_back_cd">返回</string>
+    <string name="settings_screen_support_development_dialog_title">支持開發</string>
+    <string name="support_development_text">你好，我是 Pranav，應用鎖的開發者。我是一位學生開發者，熱衷於製作實用的應用程式。如果你覺得這個應用有幫助，請考慮小額贊助支持開發。任何金額都非常感謝，能幫助我繼續改進應用並開發新功能。感謝你的支持！</string>
+    <string name="settings_screen_support_development_donate_button">贊助</string>
+    <string name="settings_screen_permission_required_dialog_title">需要權限</string>
+    <string name="settings_screen_permission_required_dialog_text">若要啟用防解除安裝，應用鎖需要兩項權限：裝置管理員和無障礙服務。這些是防止未經授權解除安裝並確保穩固保護所必需的。你是否要繼續授予這些權限？</string>
+    <string name="settings_screen_permission_required_proceed_button">繼續</string>
+    <string name="settings_screen_device_admin_dialog_title">裝置管理員權限</string>
+    <string name="settings_screen_device_admin_dialog_text">應用鎖需要裝置管理員權限以防止未經授權的解除安裝。請在下一個畫面授予此權限。這不會影響你裝置的正常功能。</string>
+    <string name="settings_screen_device_admin_grant_button">授予權限</string>
+    <string name="settings_screen_accessibility_dialog_title">無障礙服務權限</string>
+    <string name="settings_screen_accessibility_dialog_text">應用鎖還需要無障礙服務權限來監控應用程式解除安裝嘗試，並在裝置管理員被停用時重新啟用。這可確保防解除安裝功能持續有效。請在設定中為應用鎖啟用無障礙服務。</string>
+    <string name="settings_screen_accessibility_open_settings_button">開啟設定</string>
+    <string name="settings_screen_lock_screen_customization_title">鎖定畫面自訂</string>
+    <string name="settings_screen_max_brightness_title">最大亮度</string>
+    <string name="settings_screen_max_brightness_desc">以最大亮度顯示鎖定畫面以提高清晰度</string>
+    <string name="settings_screen_biometric_auth_title">生物辨識驗證</string>
+    <string name="settings_screen_biometric_auth_desc">如果可用，使用指紋或臉部解鎖</string>
+    <string name="settings_screen_biometric_auth_unavailable">此裝置不支援生物辨識驗證。</string>
+    <string name="settings_screen_auto_prompt_biometric_title">自動提示生物辨識</string>
+    <string name="settings_screen_auto_prompt_biometric_desc">在鎖定畫面自動顯示生物辨識提示</string>
+    <string name="settings_screen_app_locking_behavior_title">應用程式鎖定行為</string>
+    <string name="settings_screen_unlock_behavior_title">解鎖行為</string>
+    <string name="settings_screen_unlock_behavior_desc">如果解鎖會導致應用程式重新啟動，請停用此選項</string>
+    <string name="settings_screen_unlock_behavior_option_close">關閉鎖定畫面</string>
+    <string name="settings_screen_unlock_behavior_option_launch">關閉鎖定畫面並啟動應用程式</string>
+    <string name="settings_screen_auto_unlock_title">自動解鎖</string>
+    <string name="settings_screen_auto_unlock_desc">輸入正確 PIN 碼後立即解鎖應用程式</string>
+    <string name="settings_screen_unlock_duration_title">解鎖持續時間</string>
+    <string name="settings_screen_unlock_duration_desc">首次解鎖後，讓應用程式保持解鎖一段設定時間</string>
+    <string name="settings_screen_unlock_duration_dialog_title">設定解鎖持續時間</string>
+    <string name="settings_screen_unlock_duration_dialog_desc">首次解鎖後，應用程式將保持解鎖此段時間。選擇 0 秒以停用。</string>
+    <string name="settings_screen_unlock_duration_dialog_seconds_suffix">秒</string>
+    <string name="settings_screen_security_title">安全性</string>
+    <string name="settings_screen_change_pin_title">更改 PIN 碼</string>
+    <string name="settings_screen_change_pin_desc">更新你目前的 PIN 碼</string>
+    <string name="settings_screen_anti_uninstall_title">防解除安裝保護</string>
+    <string name="settings_screen_anti_uninstall_desc">防止未經授權解除安裝應用鎖</string>
+    <string name="settings_screen_haptic_feedback_title">觸覺回饋</string>
+    <string name="settings_screen_haptic_feedback_desc">停用按鍵時的觸覺回饋</string>
+    <string name="settings_screen_backend_implementation_title">後端實作方式</string>
+    <string name="settings_screen_backend_implementation_desc">選擇應用鎖偵測前景應用程式的方式</string>
+    <string name="settings_screen_backend_implementation_accessibility_title">無障礙服務</string>
+    <string name="settings_screen_backend_implementation_accessibility_desc">標準方式，部分品牌可能會有輕微延遲。</string>
+    <string name="settings_screen_backend_implementation_usage_stats_title">使用情況統計</string>
+    <string name="settings_screen_backend_implementation_usage_stats_desc">實驗性方式，在部分裝置上效果更好。</string>
+    <string name="settings_screen_backend_implementation_shizuku_title">Shizuku</string>
+    <string name="settings_screen_backend_implementation_shizuku_desc">進階方式，需要透過 ADB 設定 Shizuku。</string>
+    <string name="settings_screen_backend_implementation_shizuku_unavailable">Shizuku 無法使用或權限被拒絕。</string>
+    <string name="settings_screen_backend_implementation_shizuku_experimental_title">Shizuku 實驗性功能</string>
+    <string name="settings_screen_backend_implementation_shizuku_experimental_desc">啟用 Shizuku 後端的實驗性功能（例如鎖定特定活動）。可能導致不穩定。</string>
+    <string name="settings_screen_about_title">關於</string>
+    <string name="settings_screen_developer_title">開發者</string>
+    <string name="settings_screen_developer_name">Pranav Purwar</string>
+    <string name="settings_screen_source_code_title">原始碼</string>
+    <string name="settings_screen_source_code_desc">在 GitHub 上檢視原始碼</string>
+    <string name="settings_screen_support_development_title">支持開發</string>
+    <string name="settings_screen_support_development_desc">幫助支持此應用程式的開發</string>
+
+    <!-- AppLockUtils.kt -->
+    <string name="utils_battery_ignore_toast">請允許我們的應用程式忽略電池最佳化。</string>
+    <string name="utils_battery_specific_settings_not_found_toast">找不到特定設定。請將應用程式從電池限制中移除。</string>
+    <string name="utils_battery_settings_not_found_toast">無法開啟任何電池設定。</string>
+    <string name="utils_usage_permission_error_log">檢查使用權限時發生錯誤：</string>
+
+    <!-- ShizukuPermissionDialog.kt -->
+    <string name="shizuku_permission_dialog_title">授予 Shizuku 權限</string>
+    <string name="shizuku_permission_dialog_text_1">你已啟用 Shizuku 模式，但應用程式需要額外權限才能正常運作。</string>
+    <string name="dialog_text_press_grant_permission_to_open_settings">按下「授予權限」以開啟設定並授予必要的權限。</string>
+    <string name="grant_permission_button">授予權限</string>
+    <string name="open_settings_button">開啟設定</string>
+
+    <!-- DeviceAdminPermissionDialog.kt -->
+    <string name="device_admin_permission_dialog_title">需要裝置管理員權限</string>
+    <string name="device_admin_permission_dialog_text">你已啟用防解除安裝模式，這需要裝置管理員權限來保護應用程式。</string>
+
+    <!-- AntiUninstallAccessibilityPermissionDialog.kt -->
+    <string name="anti_uninstall_accessibility_permission_dialog_title">需要無障礙權限</string>
+    <string name="anti_uninstall_accessibility_permission_dialog_text">你已啟用防解除安裝模式，但應用程式需要無障礙權限才能強制執行。</string>
+
+    <!-- AdminPasswordVerificationDialog.kt -->
+    <string name="admin_password_verification_dialog_title">需要密碼驗證</string>
+    <string name="admin_password_verification_dialog_text">請輸入你的應用鎖密碼以停用管理員權限</string>
+    <string name="password_label">密碼</string>
+    <string name="password_empty_error">密碼不能為空</string>
+    <string name="incorrect_password_error">密碼錯誤</string>
+    <string name="verify_button">驗證</string>
+
+    <!-- AccessibilityServiceGuideDialog.kt -->
+    <string name="accessibility_guide_dialog_title">啟用無障礙服務</string>
+    <string name="accessibility_guide_dialog_text_1">應用鎖需要無障礙權限來偵測受保護的應用程式是否啟動。</string>
+    <string name="accessibility_guide_dialog_text_2">請依照以下步驟操作：</string>
+    <string name="accessibility_guide_dialog_text_3">
+1. 點擊下方的「開啟設定」\n
+2. 將開關切換為開啟\n
+3. 在確認對話方塊中點擊「允許」。
+    </string>
+    <string name="accessibility_guide_open_settings_button">開啟設定</string>
+    <string name="settings_screen_about_and_support_title">關於與支援</string>
+    <string name="settings_screen_join_community_title">加入社群</string>
+    <string name="settings_screen_unlock_duration_summary_minutes">%1$d 分鐘</string>
+    <string name="settings_screen_unlock_duration_summary_immediate">立即鎖定</string>
+    <string name="settings_screen_biometric_auth_desc_available">使用指紋或臉部解鎖來解鎖應用程式</string>
+    <string name="settings_screen_biometric_auth_desc_unavailable">生物辨識驗證尚未設定或無法使用。</string>
+    <string name="settings_screen_shizuku_permission_granted">已授予 Shizuku 權限</string>
+    <string name="settings_screen_shizuku_permission_required_desc">進階功能需要 Shizuku 權限。</string>
+    <string name="settings_screen_shizuku_not_running_toast">Shizuku 未執行</string>
+    <string name="settings_screen_usage_permission_toast">請授予使用情況存取權限。</string>
+    <string name="settings_screen_unlock_duration_dialog_description_new">選擇輸入 PIN 碼後應用程式應保持解鎖的時間：</string>
+    <string name="settings_screen_unlock_duration_dialog_option_immediate">立即鎖定</string>
+    <string name="settings_screen_unlock_duration_dialog_option_minute">%1$d 分鐘</string>
+    <string name="settings_screen_unlock_duration_dialog_option_hour">1 小時</string>
+    <string name="settings_screen_permission_required_dialog_text_1">若要啟用防解除安裝保護，應用鎖需要兩項權限：</string>
+    <string name="settings_screen_permission_required_dialog_text_2">1. 裝置管理員 - 防止解除安裝\n2. 無障礙服務 - 監控應用程式使用情況\n\n這些權限有助於保護應用程式不被你在不知情的情況下移除。</string>
+    <string name="settings_screen_device_admin_dialog_text_1">應用鎖需要裝置管理員權限以防止解除安裝。</string>
+    <string name="settings_screen_device_admin_dialog_text_2">此權限允許應用程式：\n• 防止自身被解除安裝\n• 保護你的應用鎖設定\n\n這不會影響你裝置的正常功能。</string>
+    <string name="settings_screen_accessibility_dialog_text_1">應用鎖需要無障礙服務權限來監控應用程式使用情況。</string>
+    <string name="settings_screen_accessibility_dialog_text_2">此權限允許應用程式：\n• 偵測應用程式何時開啟\n• 在需要時顯示鎖定畫面\n• 提供無縫的應用程式保護</string>
+    <string name="settings_screen_accessibility_dialog_text_3">你的隱私受到保護 - 不會收集或分享任何資料。</string>
+    <string name="settings_screen_backend_implementation_shizuku_advanced">進階</string>
+    <string name="settings_screen_fallback_selection_dialog_title">選擇備用方式</string>
+    <string name="settings_screen_fallback_selection_dialog_desc">選擇當主要方式失敗時要使用的備用方式：</string>
+    <string name="confirm_button">確認</string>
+    <string name="enable_button">啟用</string>
+    <string name="settings_screen_advanced_title">進階</string>
+    <string name="settings_screen_export_logs_title">匯出日誌</string>
+    <string name="settings_screen_export_logs_desc">匯出應用程式日誌以供除錯。</string>
+    <string name="settings_Screen_export_audit">匯出安全性日誌</string>
+    <string name="settings_screen_export_audit_desc">匯出安全性日誌以供檢閱。</string>
+    <string name="settings_screen_export_logs_success">日誌已匯出</string>
+    <string name="settings_screen_export_logs_error">匯出日誌失敗</string>
+    <string name="settings_screen_version_template">版本 %1$s</string>
+
+    <!-- Pattern Lock Strings -->
+    <string name="enter_pattern_to_continue">繪製圖形以繼續</string>
+    <string name="incorrect_pattern_try_again">圖形錯誤，請重試。</string>
+
+    <string name="join_community">加入社群</string>
+    <string name="join_community_desc">加入我們的 Discord 社群，與其他使用者交流、分享意見，並隨時掌握最新消息和功能。</string>
+    <string name="join_discord">加入 Discord</string>
+    <string name="maybe_later">稍後再說</string>
+
+    <string name="donate">贊助</string>
+    <string name="donate_subtitle">讓應用鎖永遠免費且無廣告</string>
+    <string name="donate_dialog_title">支持開發</string>
+    <string name="donate_dialog_message">
+        你好，我是 Pranav。我是一位學生開發者，利用課餘時間開發應用鎖，希望讓它對所有人來說都是私密且無廣告的。
+        兼顧學業和這個專案是一項挑戰，但你的支持讓這一切成為可能。
+        如果應用鎖對你有幫助，請考慮小額贊助——任何金額對我來說都意義重大，能讓這個專案繼續下去。
+        感謝你相信我！
+    </string>
+</resources>
